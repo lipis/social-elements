@@ -15,6 +15,10 @@ Contents
 Facebook
 --------
 
+### Buttons
+
+Include this preferably before the `</body>` for any Facebook buttons.
+
 ```html
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -26,7 +30,7 @@ Facebook
 }(document, 'script', 'facebook-jssdk'));</script>
 ```
 
-### Like Button
+#### Like Button
 For more information head to [Like Button](https://developers.facebook.com/docs/plugins/like-button).
 
 ```html
@@ -37,7 +41,7 @@ Additionally you can include `data-share="true"` if you want to shares well.
 
 The `data-layout` can also be `box_count`, `button_account`, `button`.
 
-### Follow Button
+#### Follow Button
 
 For more information head to [Follow Button](https://developers.facebook.com/docs/plugins/follow-button).
 
@@ -123,6 +127,8 @@ Twitter
 ### Buttons
 
 For more information head to [Twitter buttons](https://about.twitter.com/resources/buttons).
+
+Include this preferably before the `</body>` for any Twitter buttons.
 
 ```html
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
