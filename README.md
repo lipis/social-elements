@@ -66,7 +66,7 @@ For more information head to [Twitter buttons](https://about.twitter.com/resourc
 <a href="https://twitter.com/Lipis" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Lipis</a>
 ```
 
-##### Hashtag
+#### Hashtag
 
 ```html
 <a href="https://twitter.com/intent/tweet?button_hashtag=OpenGraph" class="twitter-hashtag-button" data-related="Lipis">Tweet #OpenGraph</a>
