@@ -1,5 +1,5 @@
-Open Graph Elements and More
-============================
+Social Elements and More for the Web
+====================================
 
 > Everything you would like to include to make your website more social.
 
