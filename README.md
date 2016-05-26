@@ -6,11 +6,35 @@ Social Elements and More for the Web
 Contents
 --------
 
+- [**Open Graph**](#open-graph)
 - [Facebook](#facebook)
 - [Favicon](#favicon)
 - [GitHub buttons](#github-buttons)
-- [Open Graph](#open-graph)
 - [Twitter](#twitter)
+
+Open Graph
+----------
+
+For more information head to [The Open Graph protocol](http://ogp.me/).
+
+### Basic Metadata
+
+```html
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://github.com/lipis/social-elements">
+<meta property="og:title" content="Social Elements">
+<meta property="og:description" content="Social Elements">
+<meta property="og:image" content="https://lipis.github.io/social-elements/social-elements.png">
+```
+
+### Optional Metadata
+
+- `og:audio` — A URL to an audio file to accompany this object.
+- `og:determiner` — The word that appears before this object's title in a sentence. An enum of (a, an, the, "", auto). If auto is chosen, the consumer of your data should chose between "a" or "an". Default is "" (blank).
+- `og:locale` — The locale these tags are marked up in. Of the format language_TERRITORY. Default is en_US.
+- `og:locale:alternate` — An array of other locales this page is available in.
+- `og:site_name` — If your object is part of a larger web site, the name which should be displayed for the overall site. e.g., "IMDb".
+- `og:video` — A URL to a video file that complements this object.
 
 Facebook
 --------
@@ -96,30 +120,6 @@ For more information head to [GitHub buttons](https://ghbtns.com/).
 
 <iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;type=follow&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
 ```
-
-Open Graph
-----------
-
-For more information head to [The Open Graph protocol](http://ogp.me/).
-
-### Basic Metadata
-
-```html
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://github.com/lipis/social-elements">
-<meta property="og:title" content="Social Elements">
-<meta property="og:description" content="Social Elements">
-<meta property="og:image" content="https://lipis.github.io/social-elements/social-elements.png">
-```
-
-### Optional Metadata
-
-- `og:audio` — A URL to an audio file to accompany this object.
-- `og:determiner` — The word that appears before this object's title in a sentence. An enum of (a, an, the, "", auto). If auto is chosen, the consumer of your data should chose between "a" or "an". Default is "" (blank).
-- `og:locale` — The locale these tags are marked up in. Of the format language_TERRITORY. Default is en_US.
-- `og:locale:alternate` — An array of other locales this page is available in.
-- `og:site_name` — If your object is part of a larger web site, the name which should be displayed for the overall site. e.g., "IMDb".
-- `og:video` — A URL to a video file that complements this object.
 
 Twitter
 -------
