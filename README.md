@@ -17,7 +17,7 @@ Facebook
 
 ### Buttons
 
-Include this preferably before the `</body>` for any Facebook buttons.
+Include this preferably before the `</body>` for any Facebook buttons providing your own `APP_ID`:
 
 ```html
 <div id="fb-root"></div>
@@ -128,7 +128,7 @@ Twitter
 
 For more information head to [Twitter buttons](https://about.twitter.com/resources/buttons).
 
-Include this preferably before the `</body>` for any Twitter buttons.
+Include this preferably before the `</body>` for any Twitter buttons:
 
 ```html
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
