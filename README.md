@@ -6,10 +6,48 @@ Open Graph Elements and More
 Contents
 --------
 
+- [Facebook](#facebook)
 - [Favicon](#favicon)
 - [GitHub buttons](#github-buttons)
 - [Open Graph](#open-graph)
 - [Twitter](#twitter)
+
+Facebook
+--------
+
+```html
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=<APP_ID>";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+```
+
+### Like Button
+For more information head to [Like Button](https://developers.facebook.com/docs/plugins/like-button).
+
+```html
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true"></div>
+```
+
+Additionally you can include `data-share="true"` if you want to shares well.
+
+The `data-layout` can also be `box_count`, `button_account`, `button`.
+
+### Follow Button
+
+For more information head to [Follow Button](https://developers.facebook.com/docs/plugins/follow-button).
+
+```html
+<div class="fb-follow" data-href="https://www.facebook.com/lipis" data-layout="standard" data-show-faces="true"></div>
+```
+
+Additionally you can include `data-width` and `data-height`.
+
+The `data-layout` can also be `box_count`, `button_account`, `button`.
 
 Favicon
 -------
@@ -63,16 +101,16 @@ For more information head to [The Open Graph protocol](http://ogp.me/).
 ### Basic Metadata
 
 ```html
-<meta property="og:title" content="Social Elements">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://github.com/lipis/social-elements">
+<meta property="og:title" content="Social Elements">
+<meta property="og:description" content="Social Elements">
 <meta property="og:image" content="https://lipis.github.io/social-elements/social-elements.png">
 ```
 
 ### Optional Metadata
 
 - `og:audio` — A URL to an audio file to accompany this object.
-- `og:description` — A one to two sentence description of your object.
 - `og:determiner` — The word that appears before this object's title in a sentence. An enum of (a, an, the, "", auto). If auto is chosen, the consumer of your data should chose between "a" or "an". Default is "" (blank).
 - `og:locale` — The locale these tags are marked up in. Of the format language_TERRITORY. Default is en_US.
 - `og:locale:alternate` — An array of other locales this page is available in.
