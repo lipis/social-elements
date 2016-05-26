@@ -11,33 +11,33 @@ For more information head to [GitHub buttons](https://ghbtns.com/).
 ### Star
 
 ```html
-<iframe src="https://ghbtns.com/github-btn.html?user=lipis&repo=open-graph&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;repo=open-graph&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=lipis&repo=open-graph&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;repo=open-graph&amp;type=star&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 ```
 
 ### Watch
 
 ```html
-<iframe src="https://ghbtns.com/github-btn.html?user=lipis&repo=open-graph&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;repo=open-graph&amp;type=watch&amp;count=true&amp;v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=lipis&repo=open-graph&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;repo=open-graph&amp;type=watch&amp;count=true&amp;size=large&amp;v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 ```
 
 ### Fork
 
 ```html
-<iframe src="https://ghbtns.com/github-btn.html?user=lipis&repo=open-graph&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;repo=open-graph&amp;type=fork&amp;count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=lipis&repo=open-graph&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;repo=open-graph&amp;type=fork&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
 ```
 
 ### Follow
 
 ```html
-<iframe src="https://ghbtns.com/github-btn.html?user=lipis&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;type=follow&amp;count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=lipis&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;type=follow&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
 ```
 
 Twitter
@@ -71,7 +71,7 @@ For more information head to [Twitter buttons](https://about.twitter.com/resourc
 ```html
 <a href="https://twitter.com/intent/tweet?button_hashtag=OpenGraph" class="twitter-hashtag-button" data-related="Lipis">Tweet #OpenGraph</a>
 
-<a href="https://twitter.com/intent/tweet?button_hashtag=OpenGraph&text=Everything%20you%20would%20like%20to%20include%20to%20make%20your%20website%20more%20social" class="twitter-hashtag-button" data-related="Lipis" data-url="https://github.com/lipis/open-graph" data-size="large">Tweet #OpenGraph</a>
+<a href="https://twitter.com/intent/tweet?button_hashtag=OpenGraph&amp;text=Everything%20you%20would%20like%20to%20include%20to%20make%20your%20website%20more%20social" class="twitter-hashtag-button" data-related="Lipis" data-url="https://github.com/lipis/open-graph" data-size="large">Tweet #OpenGraph</a>
 ```
 
 #### Mention
@@ -79,5 +79,5 @@ For more information head to [Twitter buttons](https://about.twitter.com/resourc
 ```html
 <a href="https://twitter.com/intent/tweet?screen_name=Lipis" class="twitter-mention-button" data-related="Lipis">Tweet to @Lipis</a>
 
-<a href="https://twitter.com/intent/tweet?screen_name=Lipis&text=Hello%2C%20World!" class="twitter-mention-button" data-size="large" data-related="Lipis">Tweet to @Lipis</a>
+<a href="https://twitter.com/intent/tweet?screen_name=Lipis&amp;text=Hello%2C%20World!" class="twitter-mention-button" data-size="large" data-related="Lipis">Tweet to @Lipis</a>
 ```
