@@ -9,8 +9,10 @@ Contents
 - [**Open Graph**](#open-graph)
 - [Facebook](#facebook)
 - [Favicon](#favicon)
-- [GitHub buttons](#github-buttons)
+- [GitHub](#github)
 - [Twitter](#twitter)
+  - [Buttons](#buttons-1)
+  - [Cards](#cards)
 
 Open Graph
 ----------
@@ -84,8 +86,8 @@ For the main favicon itself, it's best for cross-browser compatibility not to us
 
 For more information head to [favicon-cheat-sheet](https://github.com/audreyr/favicon-cheat-sheet).
 
-GitHub buttons
---------------
+GitHub
+------
 
 For more information head to [GitHub buttons](https://ghbtns.com/).
 
@@ -164,3 +166,24 @@ Include this preferably before the `</body>` for any Twitter buttons:
 
 <a href="https://twitter.com/intent/tweet?screen_name=Lipis&amp;text=Hello%2C%20World!" class="twitter-mention-button" data-size="large" data-related="Lipis">Tweet to @Lipis</a>
 ```
+
+### Card
+
+For more information head to [Getting Started Guide](https://dev.twitter.com/cards/getting-started).
+
+```html
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@lipis">
+<meta name="twitter:title" content="Social Elements">
+<meta name="twitter:description" content="Social Elements.">
+<meta name="twitter:image" content="https://lipis.github.io/social-elements/social-elements.png">
+```
+
+The `twitter:card` can be one of the following (follow the links to see more attributes):
+
+- [`summary`](https://dev.twitter.com/cards/types/summary)
+- [`summary_large_image`](https://dev.twitter.com/cards/types/summary-large-image)
+- [`photo`](https://dev.twitter.com/cards/types/photo)
+- [`gallery`](https://dev.twitter.com/cards/types/gallery)
+- [`app`](https://dev.twitter.com/cards/types/app)
+- [`player`](https://dev.twitter.com/cards/types/player)
