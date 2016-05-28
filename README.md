@@ -11,8 +11,8 @@ Contents
 - [Favicon](#favicon)
 - [GitHub](#github)
 - [Twitter](#twitter)
-  - [Buttons](#buttons-1)
-  - [Cards](#cards)
+  - [Buttons](#twitter-buttons)
+  - [Cards](#twitter-cards)
 
 Open Graph
 ----------
@@ -41,7 +41,7 @@ For more information head to [The Open Graph protocol](http://ogp.me/).
 Facebook
 --------
 
-### Buttons
+### Facebook Buttons
 
 Include this preferably before the `</body>` for any Facebook buttons providing your own `APP_ID`:
 
@@ -126,7 +126,7 @@ For more information head to [GitHub buttons](https://ghbtns.com/).
 Twitter
 -------
 
-### Buttons
+### Twitter Buttons
 
 For more information head to [Twitter buttons](https://about.twitter.com/resources/buttons).
 
@@ -167,7 +167,7 @@ Include this preferably before the `</body>` for any Twitter buttons:
 <a href="https://twitter.com/intent/tweet?screen_name=Lipis&amp;text=Hello%2C%20World!" class="twitter-mention-button" data-size="large" data-related="Lipis">Tweet to @Lipis</a>
 ```
 
-### Card
+### Twitter Cards
 
 For more information head to [Getting Started Guide](https://dev.twitter.com/cards/getting-started).
 
