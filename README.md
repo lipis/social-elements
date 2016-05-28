@@ -10,6 +10,7 @@ Contents
 - [Facebook](#facebook)
 - [Favicon](#favicon)
 - [GitHub](#github)
+- [Pinterest](#pinterest)
 - [Twitter](#twitter)
   - [Buttons](#twitter-buttons)
   - [Cards](#twitter-cards)
@@ -23,10 +24,10 @@ For more information head to [The Open Graph protocol](http://ogp.me/).
 
 ```html
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://github.com/lipis/social-elements">
-<meta property="og:title" content="Social Elements">
-<meta property="og:description" content="Social Elements">
-<meta property="og:image" content="https://lipis.github.io/social-elements/social-elements.png">
+<meta property="og:url" content="...">
+<meta property="og:title" content="...">
+<meta property="og:description" content="...">
+<meta property="og:image" content="...">
 ```
 
 ### Optional Metadata
@@ -123,6 +124,80 @@ For more information head to [GitHub buttons](https://ghbtns.com/).
 <iframe src="https://ghbtns.com/github-btn.html?user=lipis&amp;type=follow&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
 ```
 
+Pinterest
+---------
+
+Include this preferably before the `</body>` for any Pinterest widgets:
+
+```html
+<script type="text/javascript">
+(function(d){
+  var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+  p.type = 'text/javascript';
+  p.async = true;
+  p.src = '//assets.pinterest.com/js/pinit.js';
+  f.parentNode.insertBefore(p, f);
+}(document));
+</script>
+```
+
+### Pin it
+
+For more information head to [Pin it button](https://developers.pinterest.com/docs/widgets/pin-it/).
+
+```html
+<a href="https://www.pinterest.com/pin/create/button/">
+  <img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
+</a>
+```
+
+### Follow
+
+For more information head to [Follow button](https://developers.pinterest.com/docs/widgets/follow-button/).
+
+```html
+<a href="https://www.pinterest.com/lipis/"
+   data-pin-do="buttonFollow">
+  Lipis
+</a>
+```
+
+### Pin
+
+For more information head to [Pin widget](https://developers.pinterest.com/docs/widgets/pin-widget/).
+
+```html
+<a href="https://www.pinterest.com/pin/139752394664775546/"
+   data-pin-do="embedPin">
+</a>
+```
+
+### Board
+
+For more information head to [Board widget](https://developers.pinterest.com/docs/widgets/board-widget/).
+
+```html
+<a href="https://www.pinterest.com/anapinskywalker/style/"
+   data-pin-do="embedBoard"
+   data-pin-board-width="400"
+   data-pin-scale-height="320"
+   data-pin-scale-width="100">
+</a>
+```
+
+### Profile
+
+For more information head to [Profile widget](https://developers.pinterest.com/docs/widgets/profile-widget/).
+
+```html
+<a href="https://www.pinterest.com/anapinskywalker/"
+   data-pin-do="embedUser"
+   data-pin-board-width="400"
+   data-pin-scale-height="320"
+   data-pin-scale-width="80">
+</a>
+```
+
 Twitter
 -------
 
@@ -174,9 +249,9 @@ For more information head to [Getting Started Guide](https://dev.twitter.com/car
 ```html
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@lipis">
-<meta name="twitter:title" content="Social Elements">
-<meta name="twitter:description" content="Social Elements.">
-<meta name="twitter:image" content="https://lipis.github.io/social-elements/social-elements.png">
+<meta name="twitter:title" content="...">
+<meta name="twitter:description" content="...">
+<meta name="twitter:image" content="...">
 ```
 
 The `twitter:card` can be one of the following (follow the links to see more attributes):
